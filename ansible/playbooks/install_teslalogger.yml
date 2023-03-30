@@ -1,0 +1,4 @@
+- host: "{{ target }}"
+  tasks:
+    - name: install necessary packages
+      apt: 
